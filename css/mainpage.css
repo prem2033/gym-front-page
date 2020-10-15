@@ -1,0 +1,11 @@
+.carousel-inner img{
+    width: 100%;
+    height: 40rem;
+}
+.nav-bg-color{
+    background-color: rgb(124, 124, 124);
+    color: black;
+}
+.navbar-dark .navbar-nav .nav-link {
+    color:rgba(255, 255, 255, 0.911);
+}

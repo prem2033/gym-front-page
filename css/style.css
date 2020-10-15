@@ -1,0 +1,223 @@
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+body{
+    background-color: rgba(196, 209, 207, 0.274);
+}
+#navbar{
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0px;
+    z-index: 5;
+}
+#navbar::before{
+    content: "";
+    background-color: black;
+    position: absolute;
+    top:0px;
+    left:0px;
+    height: 100%;
+    width:100%;
+    z-index: -1;
+    opacity: 0.3;
+}
+#logo img{
+    width: 56px;
+    height: 56px;
+    padding: 8px;
+    margin: 8px;;
+}
+#navbar ul{
+    display: flex;
+    font-size: 1rem;
+    /* border: 1px solid red; */
+    padding :25px;
+    margin : 10px;
+    list-style: none;
+}
+#navbar ul li a{
+    text-align: center;
+    padding: 8px;
+    margin: 8px;
+    text-decoration: none;
+    font-size: 1.3rem;
+    color: white;
+
+}
+#navbar ul li a:hover{
+    color: rgb(228, 162, 19);
+    background-color: gray;
+    border-radius: 9px;
+    cursor: pointer;    
+}
+
+#navsearch{
+    /* border: 1px solid red; */
+    padding: 5px 5px 5px 5px;
+    margin: 5px 5px 5px 5px;
+    display: flex;
+    align-items: center; 
+}
+#home{
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 544px;
+}
+#home::before{ 
+    content: "";
+    position: absolute;
+    background: url('../Images/gym.jpg') no-repeat center center/cover;
+    height: 642px;
+    top:0px;
+    left:0px;
+    width: 100%;
+    z-index: -1;
+    opacity:0.6;
+}
+#home h1{
+    color:black;
+    text-align: center;
+    font-size: 3rem;
+}
+
+#home p{
+    color:black;
+    text-align: center;
+    font-size: 2.2rem;
+    color: white;
+}
+#home button:hover{
+    background-color: rgb(236, 152, 26);
+    outline: none;
+}
+/* always used class */
+.btn{
+    padding: 6px 20px;
+    border: 2px solid white;
+    background-color: brown;
+    color: white;
+    margin: 17px;
+    font-size: 1.5rem;
+    border-radius: 10px;
+    cursor:pointer;
+    outline: none;
+}
+.primary{
+    font-size: 2rem;
+    text-align: center;
+    padding: 2px;
+    margin: 10px;
+}
+
+/* service section */
+#service{    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+    padding: 0px;
+    z-index: -2;
+}
+#service  .box{
+    padding: 2rem;
+    margin: 2rem 2rem;
+    border-radius: 28px;
+    background: #f2f2f2;
+    margin-bottom: 20px;
+    width: 24rem; /*initallt 19*/
+    height: auto;
+}
+#service .box img{ 
+    height: 215px;
+    /* below image to aligh center */
+    display: block;
+    margin: auto;
+    width: 19rem;
+ }
+ #service .box p{
+     padding: 4px;
+     text-align: justify;
+ }
+ #service .box h1{
+    padding: 2px;
+    text-align: center;
+    justify-content: center;
+}
+
+/*  client section */
+#client-section{
+    position: relative;
+    background-color: rgba(196, 209, 207, 0.274);
+    margin: 0px;
+    padding: 0px;
+   
+}
+#clients{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+}
+#clients .client-box img{
+    height: 103px;
+    width: 135px;
+    margin: 10px;
+    padding: 11px;
+}
+/* contact form */
+#contactUs{
+    background-color: rgba(196, 209, 207, 0.274);
+}
+
+#contac-form form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#contac-form form label{
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+#contac-form form .inputtag{
+    width: 20rem;
+    height: 2rem;
+    margin: 0.3rem;
+    padding: 0.4rem;;
+    border-radius: 14px;
+    font-size: 1.2rem;
+}
+.form-item input{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    margin: 2px;
+    outline: none;
+}
+.form-item label{
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    margin: 2px;
+}
+input[type='submit']:hover{
+    background-color: rgb(236, 152, 26);
+}
+/* code to put things in center */
+#footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: .5rem;
+    background-color: black;
+    color: white;
+}

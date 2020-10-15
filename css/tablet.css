@@ -1,0 +1,22 @@
+/* body{
+    background-color: rgba(238, 37, 18, 0.959);
+} */
+/*  nav bar */
+/*home section*/
+
+/* service section */
+#service{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#service .box{
+    width: 30rem;
+    height: 20rem;
+    padding: 1rem;
+    margin: 1rem;
+}
+#service .box img{
+    width: 22rem;
+    height: 14rem;
+ }

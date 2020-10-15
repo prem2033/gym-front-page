@@ -1,0 +1,62 @@
+/* nav Section */
+html {
+    scroll-behavior: smooth;
+  }
+#navbar{
+    flex-direction: column;
+}
+
+#navbar #logo img{
+    padding: 0rem;
+    margin: .5rem;
+}
+#navbar ul{
+    padding:1rem;
+    margin: 0rem;
+}
+#navbar ul li a{
+    font-size: 1rem;
+    
+}
+/* home section */
+#home{
+    height: 518px;
+}
+#home .primary{
+    font-size: 2rem;
+}
+
+/* our service section */
+
+#service{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#service .box{
+    width: 14rem;
+    height: 20rem;
+    padding: 1rem;
+    margin: 1rem;
+    
+}
+#service .box img{
+    width: 10rem;
+    height: 10rem;
+ }
+
+ /*form section*/
+ #contac-form form .inputtag{
+    width: 100%;
+    margin: 0.1rem;
+    padding: 0.2rem;;
+    border-radius: 12px;
+    font-size: 1rem;
+}
+
+/*footer*/
+#footer{
+    background-color: black;
+    color: white;
+    font-size: 0.8rem;
+}

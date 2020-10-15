@@ -1,0 +1,16 @@
+#service{
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+#service .box{
+    width: 20rem;
+    height: 20rem;
+    padding: 1rem;
+    margin: 1rem;
+}
+#service .box img{
+    width: 13rem;
+    height: 12rem;
+ }
