@@ -36,7 +36,7 @@ if ($num == 1){
     <div id="login-page">
         <h1> WELCOME</h1>
         <!-- logog of the html page -->
-        <img src="../images/home.ico" alt="home logo">
+        <img src="../images/logo.jpg" alt="home logo">
         <?php
          if($loginflag && isset($_POST['submit']) ){       
         header("location: mainpage.html");
