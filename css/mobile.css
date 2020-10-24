@@ -34,17 +34,12 @@ html {
     align-items: center;
 }
 #service .box{
-    width: 14rem;
-    height: 20rem;
-    padding: 1rem;
-    margin: 1rem;
+    width: 80%;
+    height: 100%;
+    padding: 2rem;
+    margin: 2rem;
     
 }
-#service .box img{
-    width: 10rem;
-    height: 10rem;
- }
-
  /*form section*/
  #contac-form form .inputtag{
     width: 100%;

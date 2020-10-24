@@ -5,12 +5,8 @@
     flex-wrap: wrap;
 }
 #service .box{
-    width: 20rem;
-    height: 20rem;
-    padding: 1rem;
-    margin: 1rem;
+    width: 31%;
+    height: 21rem;
+    padding: 2rem;
+    margin: 2rem;
 }
-#service .box img{
-    width: 13rem;
-    height: 12rem;
- }

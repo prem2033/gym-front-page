@@ -28,7 +28,8 @@ body{
     width: 56px;
     height: 56px;
     padding: 8px;
-    margin: 8px;;
+    margin: 8px;
+    border-radius: 3rem;
 }
 #navbar ul{
     display: flex;
@@ -132,13 +133,16 @@ body{
     margin-bottom: 20px;
     width: 24rem; /*initallt 19*/
     height: auto;
+   
 }
 #service .box img{ 
-    height: 215px;
+    height: auto;
     /* below image to aligh center */
     display: block;
     margin: auto;
-    width: 19rem;
+    width: 97%;
+    border-radius: 1rem;
+    border: 3px solid rgb(0, 0, 0);
  }
  #service .box p{
      padding: 4px;
@@ -151,6 +155,7 @@ body{
 }
 
 /*  client section */
+
 #client-section{
     position: relative;
     background-color: rgba(196, 209, 207, 0.274);
