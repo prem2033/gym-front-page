@@ -9,22 +9,26 @@
     <link rel="stylesheet" href="css/mobile.css" media="screen and (max-width:600px)">
     <link rel="stylesheet" href="css/tablet.css" media="screen and (min-width:601px) and (max-width:768px)">
     <link rel="stylesheet" href="css/tablePotrait.css" media="screen and (min-width:769px) and (max-width: 992px)">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
-    <nav id="navbar">
+    <nav class="navbar " > 
         <div id="logo">
             <img src="images\logo.jpg">
         </div >
-            <ul>
+            <ul class="nav-item-link ">
                 <li class="item"><a href="#home">Home</a></li>
                 <li class="item"><a href="#services-container">Service</a></li>
                 <li class="item"><a href="#client-section">Clients</a></li>
                 <li class="item"><a href="#contactUs">Contact</a></li>
                 <li class="item"><a href="html/signin.php">Login</a></li>
             </ul>
+            <a  class="icon " onclick="toggleburger()">
+                <i class="fa fa-bars" style="font-size:40px;color: whitesmoke;"></i>
+            </a>
     </nav> 
 
-    <section id="home">
+    <section class="home ">
         <h1 class="primary">Welcome to Sprint Fitness</h1>
         <p>Never Give up!! </p>
         <button class="btn">Join US</button>
@@ -94,5 +98,6 @@
     <footer id="footer">
         <div>Copyright &copy; www.gymserviceprovider.com. All rights reserved!</div>
     </footer>
+    <script src="js/toggle.js"></script>
 </body>
 </html>

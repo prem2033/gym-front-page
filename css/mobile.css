@@ -2,30 +2,11 @@
 html {
     scroll-behavior: smooth;
   }
-#navbar{
-    flex-direction: column;
-}
-
-#navbar #logo img{
-    padding: 0rem;
-    margin: .5rem;
-}
-#navbar ul{
-    padding: 1rem;
-    margin: 0rem;
-    flex-wrap: wrap;
-    /* flex-direction: column; */
-    justify-content: space-around;
-}
-#navbar ul li a{
-    font-size: 1rem;
-    
-}
 /* home section */
-#home{
-    height: 518px;
+.home{
+    height: 560px;
 }
-#home .primary{
+.home .primary{
     font-size: 2rem;
 }
 
@@ -58,3 +39,40 @@ html {
     color: white;
     font-size: 0.8rem;
 }
+.nav-item-link{
+    display: none;
+}
+.icon{
+    display: block;
+    position: absolute;
+    right: 5%;
+}
+/* add to navbar for responsive*/
+.navbar-response{
+    display: flex;
+    flex-direction:column;
+    /* transition:  height 2s;
+    height: 210px; */
+    width: 100%;    
+}
+.nav-item-link-resp{
+   display: flex;
+   flex-direction:column;
+   padding: 0rem;
+}
+.nav-item-link-resp a{
+    padding: 0rem;
+    margin: 0rem;
+ } 
+#logo img{
+    padding: 0rem;
+    margin: 0.4rem;
+}
+.home-width{
+    height: 438px;
+}
+.icononclick{
+    right: 5%;
+    top:8.5%;
+}
+
