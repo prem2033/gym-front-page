@@ -38,6 +38,8 @@ html {
     background-color: black;
     color: white;
     font-size: 0.8rem;
+    text-align: center;
+    justify-content: center;
 }
 .nav-item-link{
     display: none;
